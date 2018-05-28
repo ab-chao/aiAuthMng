@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.aiauthmng.tenant.dao.TenantDao">
+
+    <insert id="insertTenant" parameterType="com.aiauthmng.tenant.entity.TenantEntity">
+
+    </insert>
+
+    <delete id="deleteTenant" parameterType="com.aiauthmng.tenant.entity.TenantEntity">
+
+    </delete>
+
+    <update id="updateTenant" parameterType="com.aiauthmng.tenant.entity.TenantEntity">
+
+    </update>
+
+    <select id="getTenants" parameterType="com.aiauthmng.tenant.entity.TenantEntity">
+
+    </select>
+
+</mapper>
